@@ -1,0 +1,138 @@
+@charset "UTF-8";
+ body{
+            background-image: url(photo1.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(163, 138, 91,0.2);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(163, 138, 91,0.3);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(163, 138, 91,0.9);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgba(255,255,255,0.3);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+form {
+    width: 30%;
+    margin-left:2%;
+    padding: 20px;
+    background-color: rgba(163, 138, 91,0.5);
+    border-radius: 15px;
+
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:  rgba(163, 138, 91,0.3);
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 49%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+	accent-color :rgba(163, 138, 91,0.3);
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+table {
+   
+    border-collapse: collapse;
+    
+    
+    width: 50%;
+    align-items: center;
+    margin: 2% auto;
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}
+
+th {
+    background-color: rgba(0,0,0,0.9);
+    padding: 12px;
+    text-align: left;
+    color:white;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+
+
+.edit, .delete {
+    text-decoration: none;
+    color: blue;
+}
+
+.edit:hover, .delete:hover {
+    color: red;
+}
+
+
